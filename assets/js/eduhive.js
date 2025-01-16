@@ -404,7 +404,7 @@
   }
 
   $(".add").on("click", function () {
-    if ($(this).prev().val() < 999) {
+    if ($(this).prev().val() < 1999) {
       $(this)
         .prev()
         .val(+$(this).prev().val() + 1);

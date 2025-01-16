@@ -15,7 +15,7 @@
 			hasPreview: false,
 			fullPath: "assets/css/colors/",
 			cookie: {
-				expires: 999,
+				expires: 1999,
 				isManagingLoad: true
 			}
 		});
@@ -27,7 +27,7 @@
 			fullPath: "assets/css/modes/",
 			defaultThemeId: 'jssMode',
 			cookie: {
-				expires: 999,
+				expires: 1999,
 				isManagingLoad: true
 			}
 		});
@@ -39,7 +39,7 @@
 			fullPath: "assets/css/",
 			defaultThemeId: 'langLtr',
 			cookie: {
-				expires: 999,
+				expires: 1999,
 				isManagingLoad: true
 			}
 		});

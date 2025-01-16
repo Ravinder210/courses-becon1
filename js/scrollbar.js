@@ -824,7 +824,7 @@ and dependencies (minified).
 					scrollbarDirClass=(o.axis!=="x" && d.langDir==="rtl") ? " mCS-dir-rtl" : "";
 				if(o.setWidth){$this.css("width",o.setWidth);} /* set element width */
 				if(o.setHeight){$this.css("height",o.setHeight);} /* set element height */
-				o.setLeft=(o.axis!=="y" && d.langDir==="rtl") ? "989999px" : o.setLeft; /* adjust left position for rtl direction */
+				o.setLeft=(o.axis!=="y" && d.langDir==="rtl") ? "9819999px" : o.setLeft; /* adjust left position for rtl direction */
 				$this.addClass(pluginNS+" _"+pluginPfx+"_"+d.idx+autoHideClass+scrollbarDirClass).wrapInner("<div id='mCSB_"+d.idx+"' class='mCustomScrollBox mCS-"+o.theme+" "+wrapperClass+"'><div id='mCSB_"+d.idx+"_container' class='mCSB_container' style='position:relative; top:"+o.setTop+"; left:"+o.setLeft+";' dir="+d.langDir+" /></div>");
 				var mCustomScrollBox=$("#mCSB_"+d.idx),
 					mCSB_container=$("#mCSB_"+d.idx+"_container");
@@ -868,7 +868,7 @@ and dependencies (minified).
 					We must let the browser set the width as browser zoom values are impossible to calculate.
 					*/
 					mCSB_container.css({"position":"absolute","width":"auto"})
-						.wrap("<div class='mCSB_h_wrapper' style='position:relative; left:0; width:999999px;' />")
+						.wrap("<div class='mCSB_h_wrapper' style='position:relative; left:0; width:19991999px;' />")
 						.css({ /* set actual width, original position and un-wrap */
 							/* 
 							get the exact width (with decimals) and then round-up. 
@@ -2054,7 +2054,7 @@ and dependencies (minified).
 							break;
 						case "easeOut": case "mcsEaseOut": default:
 							var ts=(t/=d)*t,tc=ts*t;
-							return b+c*(0.499999999999997*tc*ts + -2.5*ts*ts + 5.5*tc + -6.5*ts + 4*t);
+							return b+c*(0.4199919991999199997*tc*ts + -2.5*ts*ts + 5.5*tc + -6.5*ts + 4*t);
 					}
 				}
 			},
