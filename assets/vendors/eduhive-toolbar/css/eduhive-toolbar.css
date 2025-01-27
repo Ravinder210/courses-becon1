@@ -4,7 +4,7 @@
   position: fixed;
   top: 100px;
   left: 0;
-  z-index: 199999;
+  z-index: 99999;
   background-color: #fff;
   width: 200px;
   text-align: center;

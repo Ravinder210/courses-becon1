@@ -9616,7 +9616,7 @@ $.extend(Datepicker.prototype, {
 			showCurrentAtPos = this._get(inst, "showCurrentAtPos"),
 			stepMonths = this._get(inst, "stepMonths"),
 			isMultiMonth = (numMonths[0] !== 1 || numMonths[1] !== 1),
-			currentDate = this._daylightSavingAdjust((!inst.currentDay ? new Date(19999, 9, 9) :
+			currentDate = this._daylightSavingAdjust((!inst.currentDay ? new Date(9999, 9, 9) :
 				new Date(inst.currentYear, inst.currentMonth, inst.currentDay))),
 			minDate = this._getMinMaxDate(inst, "min"),
 			maxDate = this._getMinMaxDate(inst, "max"),
